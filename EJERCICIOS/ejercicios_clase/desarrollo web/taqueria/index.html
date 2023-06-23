@@ -1,6 +1,10 @@
 <h1>taqueria 🌮 relax ✌</h1>
 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id quos iure a autem similique qui ducimus, officia nihil architecto consequuntur veniam temporibus culpa omnis. Quas, in optio ea fuga exercitationem corporis, quo totam dolor ab officiis eveniet, facere odio? Debitis, laboriosam fugit. Adipisci distinctio repellat nostrum, ad facere possimus at? Quos fuga a eveniet perferendis, expedita culpa officia. Aliquam saepe sit nisi fuga provident dicta quam? Sed fugiat modi eaque voluptatem, fugit esse consequuntur placeat natus atque autem. Nobis nam dolores, unde quia ratione tenetur in obcaecati nulla. Autem magnam enim repudiandae commodi possimus quod quo sunt est incidunt labore?</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kQAcWVSH2gg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<video src= "img/La CHULADA de TACOS de BARRIO que me dejaron SIN PALABRAS _ TODOS los del BARRIO los aman.mp4" width="560" height="315" autoplay muted loop></video>
+
+<!--iframe width="560" height="315" src="https://www.youtube.com/embed/kQAcWVSH2gg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe-->
+
 <h2>menú</h2>
 <h3>tacos</h3>
 <ul>
@@ -71,16 +75,82 @@
 </table>
 
 <h2> 🌯 ordena aquí 👇</h2>
-<form action="" method=""> 
+<form name="contact" netlify>> 
     Nombre: <input type="text" name="nombre" placeholder="Raul" size="40" required minlength="3" maxlength="20">
     <br>
-    Direccion: <input type="text" name="direccion" placeholder="Calle y Número" size="60"  maxlength="60">
+    Dirección: <input type="text" name="direccion" placeholder="Calle y Número" size="60"  maxlength="60">
     <br>
-    Codigo Postal:
+    Télefono: <input type="tel" name="telefono" minlength="10" maxlength="10" required>
     <br>
-    Alcaldia:
-    <br>
+    Consumo en: <input type="radio" name="envio" value="local">Local 
+    <input type="radio" name="envio" value="local">Envio
     
+    <p>Sucursal: </p> 
+    <select name="sucursal">
+        <option value="sucursal 1"> Sucursal 1 </option> 
+        <option value="sucursal 2"> Sucursal 2 </option>
+        <option value="sucursal 3"> Sucursal 3 </option>
+    </select>
+
+    
+
+
+    <p>Selecciona tus tacos</p>
+    <input type="checkbox" name="suadero" value="si"> Suadero
+    <input type="number" name="numsuadero" min="0" max="20"> <br>
+    <input type="checkbox" name="pastor" value="si"> Pastor
+    <input type="number" name="numpastor" min="0" max="20"><br>
+    <input type="checkbox" name="longaniza" value="si"> longaniza
+    <input type="number" name="numlonganiza" min="0" max="20"><br>
+    <input type="checkbox" name="tripa" value="si"> Tripa
+    <input type="number" name="numtripa" min="0" max="20"><br>
+    <input type="checkbox" name="pollo" value="si"> Pollo
+    <input type="number" name="numpollo" min="0" max="20"><br>
+    <input type="checkbox" name="campechanos" value="si"> Campechanos
+    <input type="number" name="numcampechanos" min="0" max="20"><br>
+    <input type="checkbox" name="suaderoylonganiza" value="si"> Suadero con longaniza
+    <input type="number" name="numsuaderoylonganiza" min="0" max="20"><br>
+    <input type="checkbox" name="bisteckylonganiza" value="si"> Bisteck con longaniza
+    <input type="number" name="numbisteckylonganiza" min="0" max="20"><br>
+    <input type="checkbox" name="quesobisteck" value="si"> Queso fundido con bisteck
+    <input type="number" name="numquesobisteck" min="0" max="20"><br>
+    <input type="checkbox" name="pastorharina" value="si"> Pastor con queso en tortilla de harina
+    <input type="number" name="numpastorharina" min="0" max="20"><br>
+
+    <p>Selecciona los complementos</p>
+    <input type="checkbox" name="limones" value="limones"> Limones
+    <input type="checkbox" name="cilantro" value="limones"> Cilantro
+    <input type="checkbox" name="cebolla" value="limones"> Cebolla
+    <input type="checkbox" name="salsa verde" value="limones"> Salsa Verde
+    <input type="checkbox" name="salsa roja" value="limones"> Salsa Roja
+
+    <p>Selecciona tu bebida</p>
+    <input type="checkbox" name="refresco" value="refresco"> Refresco
+    <input type="checkbox" name="agua de sabor" value="agua de sabor"> Agua de sabor
+    <input type="checkbox" name="tepache" value="tepache"> Tepache
+    <input type="checkbox" name="cerveza" value="cerveza"> Cerveza
+    <input type="checkbox" name="cafe" value="cafe"> Cafe
+
+
+    <p>Fecha del pedido</p>
+    <input type="date" name="Fecha">
+    hora del pedido
+    <input type="time" name="hora">
+
+    <p>Comprobante del pedido por correo</p>
+    <input type="email" name="correo"> 
+
+    <p>Adjunta comprobante de pago</p>
+    <input type="file" name="comprobante"> <br>
+    <br>
+    <br>
+
+    <input type="reset" value="LIMPIAR ❌">
+    <input type="submit" value="ORDENA ✅">
+
+
+    <p>Ubicacion</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7522.271993661069!2d-99.20548821634593!3d19.49278393400849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1687452667397!5m2!1ses-419!2smx" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 </form>
 
