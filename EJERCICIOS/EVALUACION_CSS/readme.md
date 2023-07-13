@@ -196,12 +196,142 @@ https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/ass
 
 
           INGRESA AQUI EL CÓDIGO HTML
-          
+          <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>evaluacion css</title>
+    <link rel="stylesheet" href="css/estilos.css" >
+  
+</head>
+
+<body>
+  <header>
+    <nav>
+      <img src="img/logo.svg.svg" alt="logo">
+        <hr>
+          <ul class="menu">
+            <a href=""><li>Residente</li></a>
+            <a href=""><li>Negocios</li></a>
+            <a href=""><li>Visitantes</li></a>
+            <a href=""><li>Gobierno</li></a>
+          </ul>
+    </nav>
+    
+    <div class="cuadro">
+      <div class="cuadro1">
+        <img src="img/hero-vector.svg" alt="vector">
+        <h1> APRENDE A PROGRAMAR EN LAS <span>ESCUELAS DE CÓDIGO</span> DE LA CDMX</h1>
+      </div>
+      <div class="cuadro1"></div>
+    </div>
+
+  <main>
+    <section>
+      <br>
+      <br>
+      <h3>¿Quién se puede inscribir?</h3>
+      <br>
+      <p><b>Cualquier persona que quiera aprender a programar código y cuente de 4-8 horas disponibles a la semana.</b></p>
+      <p> "Menores de edad deberán entrar a las instalaciones acompañados de un adulto".</p>
+    </section>
+  
+  </main>  
+      
+  </header>        
+
+
+</body>
+</html>
           
           
           
           INGRESA AQUI EL CSS
+
+          @import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Foldit:wght@100&family=Happy+Monkey&family=Nova+Oval&family=Rampart+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 50vh;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+}
+
+.cuadro{
+    width: 100%;
+    height: 50vh;
+    background: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: right;
+    align-items:center;
+    height: 8vh;
+}
+
+li{
+    list-style-type:none;
+    margin-right: 20px;
+    color: green;
+    font-weight: bold ;
+}
+
+.cuadro1{
+    width: 44%;
+    height: 35vh;
+}
+
+h1{    
+    width: 100%;
+    font-size: 3em;
+    text-align: right;
+    color: white;    
+    letter-spacing: 5px;
+}
+
+span{
+    font-size: 1.5em
+}
+
+div img{
+    float: left;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+h3{
+    color: brown;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 0%;
+}
+
+section p {
+    color: black;
+    font-size: 1.2em;
+    text-align: center;
+    margin: auto;
+    
+}
+
+
           
           
           
- Ingresa el link a tu página del proyecto final
+ Ingresa el link a tu página del proyecto final        file:///C:/Users/PILARES/Documents/evaluacion%20CSS/escuela%20de%20codigo.html
