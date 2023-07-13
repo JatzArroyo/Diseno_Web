@@ -1,0 +1,180 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 95%;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: left;
+    align-items:center;
+}  
+
+nav img{
+    margin-right: 90px;
+    margin-left: 140px;
+    height: 7vh;
+}
+
+li{
+    margin-right: 90px;
+    list-style-type: none;
+} 
+
+.menu li{
+    background-color: rgba(148, 146, 146, 0.897);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.menu li:hover{
+    background-color: white;
+    border: solid 2px black;
+    color: black;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.sect{
+    width: 95%;
+    height: 45vh;
+    background-color: green;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+a{
+    color: white;
+}
+
+h1{
+    font-size: 4em;
+    color: white;
+}
+
+.formato{
+    width: 45%;
+    height: 40vh;
+    margin-left: 470px;
+}
+
+.p1{
+    font-size: 2em;
+    color: white;
+    margin-top: 15px;
+}
+
+.boton {
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 350px;
+    margin-left: 350px;
+    border: solid 2px white;
+}
+
+.sect1{
+    width: 50%;
+    height: 45vh;
+    background-color: red;  
+    margin-bottom: 50px;
+    margin-right: 50px;  
+    text-align: center;
+}
+
+.caja1{
+    width: 50%;
+    height: 45vh;
+    background: url(../img/tjyma1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x:center;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}  
+
+.dividido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.p2{
+    font-size: 1.5em;
+    color: white;
+    margin-top: 50px;
+    width: 55%;
+    margin-left: 20%;
+}
+
+.sect2{
+    width: 50%;
+    height: 45vh;
+    background-color: red;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    text-align: center;
+    
+}
+
+.caja2{
+    width: 50%;
+    height: 45vh;
+    background: url(../img/tjyma2.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}  
+
+.div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.h2{
+    width: 50%;
+    margin-left: 200px;
+}
+
+.p3{
+    font-size: 1.5em;
+    color: white;
+    margin-top: 50px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+footer{
+    margin-left: 50px;
+}
+
+footer p{
+    color: black;
+}
+
+
